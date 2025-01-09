@@ -117,9 +117,11 @@ Starting with version v2.1.2 each version release will point to a versioned dock
 
 ```
 
+
 ## License
 
 The Dockerfile and associated scripts and documentation in this project are released under the [MIT License](LICENSE).
+
 
 
 ### Recommendation
