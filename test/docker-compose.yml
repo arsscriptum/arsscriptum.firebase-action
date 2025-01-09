@@ -1,0 +1,10 @@
+# ENTER YOUR GCP_SA_KEY BELOW
+services:
+
+  firebase-action:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    environment:
+      GCP_SA_KEY: key
+

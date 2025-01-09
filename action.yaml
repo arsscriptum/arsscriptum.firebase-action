@@ -1,0 +1,15 @@
+name: "GitHub Action for Firebase"
+author: "Guillaume Plante"
+description: "Wraps the firebase-tools CLI to enable common commands."
+
+branding:
+  icon: "package"
+  color: "gray-dark"
+
+outputs:
+  response:
+    description: "Response from the firebase command executed"
+
+runs:
+  using: "docker"
+  image: "docker://arsscriptum/arsscriptum.firebase-action:v13.29.1"
